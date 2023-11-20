@@ -1,4 +1,4 @@
-cc_binary {
+shared_library {
     name: "mploader",
     srcs: ["mploader.cpp"],
     init_rc: ["mploader.rc"],
