@@ -20,7 +20,7 @@ soong_namespace {
     ],
 }
 
-cc_binary {
+shared_library {
     name: "android.hardware.power-service.hisi-libperfmgr",
     relative_install_path: "hw",
     init_rc: ["android.hardware.power-service.hisi-libperfmgr.rc"],
