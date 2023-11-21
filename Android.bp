@@ -1,5 +1,5 @@
 soong_namespace {
     imports: [
-        "vendor/huawei/hi6250-9-common"
+        "vendor/huawei/kirin710-9-common"
     ],
 }
